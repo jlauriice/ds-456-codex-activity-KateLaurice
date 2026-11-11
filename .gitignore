@@ -203,6 +203,14 @@ cython_debug/
 # Data files (local downloads, not tracked)
 data/*
 !data/.gitkeep
+# Small public snapshot and provenance used by the activity notebook.
+!data/README.md
+!data/off_sale_liquor.json
+!data/off_sale_liquor_metadata.json
+!data/off_sale_liquor_count.json
+!data/minneapolis_neighborhoods.geojson
+!data/minneapolis_neighborhoods_metadata.json
+!data/minneapolis_neighborhoods_count.json
 .cursorignore
 .cursorindexingignore
 

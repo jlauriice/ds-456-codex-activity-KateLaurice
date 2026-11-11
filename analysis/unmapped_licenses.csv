@@ -1,0 +1,8 @@
+OBJECTID,licenseNumber,licenseName,address,licenseStatus,longitude,latitude,reason
+13,LIC393157,Top Ten Liquors,1440 5TH ST SE,Approved,0.0,0.0,"Zero coordinates (0, 0)"
+92,LIC54114,Trader Joe's,721 WASHINGTON AVE S,Pending,0.0,0.0,"Zero coordinates (0, 0)"
+117,LIC107382,Eastlake,920 LAKE ST E #123,Inactive,0.0,0.0,"Zero coordinates (0, 0)"
+118,LIC352403,Eastlake,920 LAKE ST E #123,Inactive,0.0,0.0,"Zero coordinates (0, 0)"
+131,LIC363709,Finnegans Brew Co,817 5TH AVE S,Inactive,0.0,0.0,"Zero coordinates (0, 0)"
+132,LIC363707,Finnegans Brew Co,817 5TH AVE S,Inactive,0.0,0.0,"Zero coordinates (0, 0)"
+151,LIC54120,MGM Wine & Spirits,3058 EXCELSIOR BLVD,Approved,0.0,0.0,"Zero coordinates (0, 0)"

@@ -1,0 +1,2609 @@
+{
+  "currentVersion" : 12, 
+  "id" : 0, 
+  "name" : "Minneapolis_Neighborhoods", 
+  "type" : "Feature Layer", 
+  "serviceItemId" : "ea0561bb00a94ba8b286a736464ee326", 
+  "cacheMaxAge" : 30, 
+  "displayField" : "BDNAME", 
+  "description" : "City of Minneapolis Neighborhoods", 
+  "copyrightText" : "", 
+  "defaultVisibility" : true, 
+  "editingInfo" : {
+    "lastEditDate" : 1744838632111, 
+    "schemaLastEditDate" : 1738100536763, 
+    "dataLastEditDate" : 1744838632111
+  }, 
+  "relationships" : [], 
+  "isDataVersioned" : false, 
+  "hasContingentValuesDefinition" : false, 
+  "supportsAppend" : true, 
+  "supportsCalculate" : true, 
+  "supportsASyncCalculate" : true, 
+  "supportsTruncate" : true, 
+  "supportsAttachmentsByUploadId" : true, 
+  "supportsAttachmentsResizing" : true, 
+  "supportsRollbackOnFailureParameter" : true, 
+  "supportsStatistics" : true, 
+  "supportsExceedsLimitStatistics" : true, 
+  "supportsAdvancedQueries" : true, 
+  "supportsValidateSql" : true, 
+  "supportsCoordinatesQuantization" : true, 
+  "supportsLayerOverrides" : true, 
+  "supportsTilesAndBasicQueriesMode" : true, 
+  "supportsFieldDescriptionProperty" : true, 
+  "supportsQuantizationEditMode" : true, 
+  "supportsColumnStoreIndex" : true, 
+  "supportsApplyEditsWithGlobalIds" : false, 
+  "supportsMultiScaleGeometry" : true, 
+  "supportsReturningQueryGeometry" : true, 
+  "enableNullGeometry" : false, 
+  "hasGeometryProperties" : true, 
+  "geometryProperties" : 
+  {
+    "shapeAreaFieldName" : "Shape__Area", 
+    "shapeLengthFieldName" : "Shape__Length", 
+    "units" : "esriMeters"
+  }, 
+  "advancedQueryCapabilities" : {
+    "supportsPagination" : true, 
+    "supportsPaginationOnAggregatedQueries" : true, 
+    "supportsQueryRelatedPagination" : true, 
+    "supportsQueryWithDistance" : true, 
+    "supportsOutDistance" : true, 
+    "supportsReturningQueryExtent" : true, 
+    "supportsStatistics" : true, 
+    "supportsOrderBy" : true, 
+    "supportsDistinct" : true, 
+    "supportsQueryWithResultType" : true, 
+    "supportsSqlExpression" : true, 
+    "supportsTimeRelation" : true, 
+    "supportsAdvancedQueryRelated" : true, 
+    "supportsCountDistinct" : true, 
+    "supportsPercentileStatistics" : true, 
+    "supportsApproxPercentileStatistics" : true, 
+    "supportsSpatialAggregationStatistics" : true, 
+    "supportsTrueCurve" : true, 
+    "supportedSpatialAggregationStatistics" : [
+      "EnvelopeAggregate", 
+      "CentroidAggregate", 
+      "ConvexHullAggregate"
+    ], 
+    "supportsLod" : true, 
+    "supportsQueryWithLodSR" : false, 
+    "supportedLodTypes" : [
+      "geohash"
+    ], 
+    "supportsReturningGeometryCentroid" : true, 
+    "supportsReturningGeometryEnvelope" : true, 
+    "supportsReturningGeometryProperties" : true, 
+    "supportsQueryWithDatumTransformation" : true, 
+    "supportsCurrentUserQueries" : true, 
+    "supportsHavingClause" : true, 
+    "supportsOutFieldSQLExpression" : true, 
+    "supportsMaxRecordCountFactor" : true, 
+    "supportsTopFeaturesQuery" : true, 
+    "supportsDisjointSpatialRel" : true, 
+    "supportsQueryWithCacheHint" : true, 
+    "supportedOperationsWithCacheHint" : [
+      "query", 
+      "queryTopFilter", 
+      "queryAnalytics", 
+      "queryAttachments", 
+      "queryRelated", 
+      "queryBins", 
+      "queryPivot"
+    ], 
+    "supportsQueryAnalytic" : true, 
+    "supportsQueryPivot" : true, 
+    "supportsQueryBins" : true, 
+    "supportsDefaultSR" : true, 
+    "supportsTranslations" : false, 
+    "supportsAggIds" : true, 
+    "supportsQueryWithCollation" : true, 
+    "supportsISODOW" : true, 
+    "supportsISOWeek" : true, 
+    "supportsFullTextSearch" : true, 
+    "fullTextSearchCapabilities" : {
+      "supportsAccentSensitivity" : true, 
+      "supportsStopWords" : true, 
+      "supportsSearchOperator" : true, 
+      "supportsOperator" : true
+    }
+  }, 
+  "advancedQueryAnalyticCapabilities" : {
+    "supportsLinearRegression" : true, 
+    "supportsTrendlineRegression" : true, 
+    "supportsAsync" : true, 
+    "supportsPercentileAnalytic" : true
+  }, 
+  "queryBinsCapabilities" : {
+    "supportsAsync" : true, 
+    "supportsAutoIntervalBin" : true, 
+    "supportsFixedIntervalBin" : true, 
+    "supportsFixedBoundariesBin" : true, 
+    "supportsDateBin" : true, 
+    "supportsClassificationBin" : true, 
+    "supportsStackBy" : true, 
+    "supportsSplitBy" : true, 
+    "supportsFirstDayOfWeek" : true, 
+    "supportsSnapToData" : true, 
+    "supportsReturnFullIntervalBin" : true, 
+    "supportsReturnStackValueRange" : true, 
+    "supportsNormalization" : true, 
+    "supportedStatisticTypes" : [
+      "COUNT", 
+      "SUM", 
+      "AVG", 
+      "VAR", 
+      "VAR_SAMP", 
+      "VAR_POP", 
+      "STDDEV", 
+      "STDDEV_SAMP", 
+      "STDDEV_POP", 
+      "MIN", 
+      "MAX", 
+      "PERCENTILE_CONT", 
+      "PERCENTILE_DISC", 
+      "APPROX_PERCENTILE_CONT", 
+      "APPROX_PERCENTILE_DISC", 
+      "CentroidAggregate", 
+      "EnvelopeAggregate", 
+      "ConvexHullAggregate"
+    ], 
+    "supportedNormalizationTypes" : [
+      "boxCox", 
+      "field", 
+      "inverse", 
+      "log", 
+      "naturalLog", 
+      "percentOfTotal", 
+      "squareRoot"
+    ]
+  }, 
+  "supportedOperationsWithCollation" : "query,addField,updateField", 
+  "advancedEditingCapabilities" : {
+    "supportedSqlFormatsInCalculate" : [
+      "standard"
+    ], 
+    "supportsAsyncApplyEdits" : true, 
+    "supportsReturnEditResults" : true, 
+    "supportsApplyEditsbyUploadID" : true, 
+    "supportedApplyEditsUploadIDFormats" : "JSON,PBF", 
+    "supportsTranslation" : false, 
+    "supportsMaxTranslations" : 10
+  }, 
+  "infoInEstimates" : [
+    "extent", 
+    "count"
+  ], 
+  "useStandardizedQueries" : true, 
+  "geometryType" : "esriGeometryPolygon", 
+  "minScale" : 0, 
+  "maxScale" : 0, 
+  "extent" : {
+    "xmin" : -10389348.820148297, 
+    "ymin" : 5604313.30065719, 
+    "xmax" : -10374345.195645381, 
+    "ymax" : 5629592.7722056508, 
+    "spatialReference" : {
+      "wkid" : 102100, 
+      "latestWkid" : 3857
+    }
+  }, 
+  "spatialReference" : {
+    "wkid" : 102100, 
+    "latestWkid" : 3857
+  }, 
+  "drawingInfo":{"renderer":{"type":"uniqueValue","field1":"BDNAME","field2":null,"field3":null,"defaultSymbol":null,"defaultLabel":null,"uniqueValueInfos":[{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,161,178,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Armatage","label":"Armatage","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[155,212,152,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Audubon Park","label":"Audubon Park","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[151,200,204,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Bancroft","label":"Bancroft","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[212,202,169,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Beltrami","label":"Beltrami","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[155,147,207,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Bottineau","label":"Bottineau","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[214,152,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Bryant","label":"Bryant","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[147,167,204,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Bryn - Mawr","label":"Bryn - Mawr","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[209,162,148,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Camden Industrial","label":"Camden Industrial","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[151,196,166,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Cedar - Isles - Dean","label":"Cedar - Isles - Dean","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[169,191,140,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Cedar Riverside","label":"Cedar Riverside","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[190,171,214,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Central","label":"Central","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[214,152,181,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Cleveland","label":"Cleveland","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[207,204,147,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Columbia Park","label":"Columbia Park","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[209,148,159,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Como","label":"Como","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[199,180,169,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Cooper","label":"Cooper","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[195,214,180,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Corcoran","label":"Corcoran","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[165,196,183,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Diamond Lake","label":"Diamond Lake","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[178,191,214,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Downtown East","label":"Downtown East","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,143,185,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Downtown West","label":"Downtown West","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,184,138,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"East Bde Maka Ska","label":"East Bde Maka Ska","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[209,183,151,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"East Harriet","label":"East Harriet","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[212,167,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"East Isles","label":"East Isles","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[155,212,202,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"East Phillips","label":"East Phillips","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[141,174,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Elliot Park","label":"Elliot Park","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[204,165,166,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Ericsson","label":"Ericsson","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[143,149,191,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Field","label":"Field","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[166,159,191,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Folwell","label":"Folwell","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[178,214,161,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Fulton","label":"Fulton","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[181,139,196,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Hale","label":"Hale","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[173,197,204,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Harrison","label":"Harrison","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[138,191,148,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Hawthorne","label":"Hawthorne","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[177,149,191,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Hiawatha","label":"Hiawatha","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[207,174,206,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Holland","label":"Holland","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[188,196,155,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Howe","label":"Howe","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[190,199,169,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Humboldt Industrial Area","label":"Humboldt Industrial Area","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[199,143,141,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Jordan","label":"Jordan","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[162,194,155,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Keewaydin","label":"Keewaydin","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[167,212,176,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Kenny","label":"Kenny","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[151,209,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Kenwood","label":"Kenwood","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[159,194,214,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"King Field","label":"King Field","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[173,153,209,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Lind - Bohanon","label":"Lind - Bohanon","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[150,212,166,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Linden Hills","label":"Linden Hills","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[170,194,165,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Logan Park","label":"Logan Park","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[167,207,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Longfellow","label":"Longfellow","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[161,168,191,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Loring Park","label":"Loring Park","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[186,176,207,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Lowry Hill","label":"Lowry Hill","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[167,173,207,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Lowry Hill East","label":"Lowry Hill East","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[167,159,204,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Lyndale","label":"Lyndale","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,145,169,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Lynnhurst","label":"Lynnhurst","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[163,180,194,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Marcy Holmes","label":"Marcy Holmes","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[204,170,145,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Marshall Terrace","label":"Marshall Terrace","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[189,214,169,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"McKinley","label":"McKinley","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[185,207,149,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Mid - City Industrial","label":"Mid - City Industrial","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[214,184,165,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Midtown Phillips","label":"Midtown Phillips","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[197,159,214,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Minnehaha","label":"Minnehaha","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[178,214,208,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Morris Park","label":"Morris Park","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[147,191,185,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Near - North","label":"Near - North","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[139,142,196,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Nicollet Island - East Bank","label":"Nicollet Island - East Bank","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[214,169,186,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"North Loop","label":"North Loop","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,155,187,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Northeast Park","label":"Northeast Park","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[145,181,194,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Northrop","label":"Northrop","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[157,201,149,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Page","label":"Page","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[139,196,181,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Phillips West","label":"Phillips West","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[165,182,214,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Powderhorn Park","label":"Powderhorn Park","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[191,167,157,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Prospect Park - East River Road","label":"Prospect Park - East River Road","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[209,199,178,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Regina","label":"Regina","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[153,191,170,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Seward","label":"Seward","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[214,159,206,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Sheridan","label":"Sheridan","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[177,209,176,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Shingle Creek","label":"Shingle Creek","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[176,196,155,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"South Uptown","label":"South Uptown","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[170,212,150,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"St. Anthony East","label":"St. Anthony East","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[192,163,201,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"St. Anthony West","label":"St. Anthony West","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[191,161,167,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Standish","label":"Standish","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,141,196,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Steven's Square - Loring Heights","label":"Steven's Square - Loring Heights","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[199,188,157,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Sumner - Glenwood","label":"Sumner - Glenwood","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[145,204,167,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Tangletown","label":"Tangletown","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[199,164,151,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"University of Minnesota","label":"University of Minnesota","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[209,159,157,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Ventura Village","label":"Ventura Village","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[136,191,164,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Victory","label":"Victory","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[212,178,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Waite Park","label":"Waite Park","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[204,155,167,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Webber - Camden","label":"Webber - Camden","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[195,204,147,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Wenonah","label":"Wenonah","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[199,185,165,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"West Maka Ska","label":"West Maka Ska","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[155,165,209,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Whittier","label":"Whittier","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[201,159,183,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Willard - Hay","label":"Willard - Hay","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[157,149,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Windom","label":"Windom","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[196,180,143,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.4}},"value":"Windom Park","label":"Windom Park","description":""}],"fieldDelimiter":","},"transparency":0,"labelingInfo":null}, 
+  "allowGeometryUpdates" : true, 
+  "trueCurveSupportMode" : "OGC", 
+  "supportedCurveTypes" : [
+    "esriGeometryCircularArc"
+  ], 
+  "supportedTrueCurvePbfFeatureEncodings" : [
+    "esriCompressedShapeBuffer", 
+    "esriDefault"
+  ], 
+  "allowTrueCurvesUpdates" : true, 
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients" : false, 
+  "hasAttachments" : false, 
+  "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText", 
+  "hasM" : false, 
+  "hasZ" : false, 
+  "objectIdField" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdField" : "", 
+  "typeIdField" : "BDNAME", 
+  "collation" : {
+    "locale" : "neutral", 
+    "caseSensitive" : false, 
+    "accentSensitive" : true
+  }, 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : false, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "INT_REFNO", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "INT_REFNO", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "PREFIX", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "PREFIX", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "UDI", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "UDI", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 64, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SYMBOL_NAM", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "SYMBOL_NAM", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 32, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BDNAME", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "BDNAME", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BDNUM", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "BDNUM", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 20, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "TEXT_NBR", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "TEXT_NBR", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Area", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Area", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Length", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Length", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "indexes" : [
+    {
+      "name" : "PK__MINNEAPO__F4B70D85A76E8D72", 
+      "fields" : "OBJECTID", 
+      "isAscending" : true, 
+      "isUnique" : true, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "user_672.MINNEAPOLIS_NEIGHBORHOODS_MINNEAPOLIS_NEIGHBORHOODS_Shape_sidx", 
+      "fields" : "Shape", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Spatial"
+    }, 
+    {
+      "name" : "Shape__Area_Index", 
+      "fields" : "Shape__Area", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "Shape__Length_Index", 
+      "fields" : "Shape__Length", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "insights_idx_f5d35a9f3c544a923283e56317d269ef", 
+      "fields" : "BDNAME", 
+      "isAscending" : false, 
+      "isUnique" : false, 
+      "description" : "Auto created by ArcGIS Insights", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "insights_idx_f5d35a9f3c544a923283e56317d269ef", 
+      "fields" : "BDNAME", 
+      "isAscending" : false, 
+      "isUnique" : false, 
+      "description" : "Auto created by ArcGIS Insights", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "PREFIX_Index", 
+      "fields" : "PREFIX", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "PREFIX_Index", 
+      "indexType" : "Attribute"
+    }
+  ], 
+  "dateFieldsTimeReference" : {
+    "timeZone" : "UTC", 
+    "timeZoneIANA" : "Etc/UTC", 
+    "respectsDaylightSaving" : false
+  }, 
+  "preferredTimeReference" : null, 
+  "types" : [
+    {
+      "id" : "Armatage", 
+      "name" : "Armatage", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Armatage", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Armatage"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Audubon Park", 
+      "name" : "Audubon Park", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Audubon Park", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Audubon Park"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Bancroft", 
+      "name" : "Bancroft", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Bancroft", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Bancroft"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Beltrami", 
+      "name" : "Beltrami", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Beltrami", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Beltrami"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Bottineau", 
+      "name" : "Bottineau", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Bottineau", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Bottineau"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Bryant", 
+      "name" : "Bryant", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Bryant", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Bryant"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Bryn - Mawr", 
+      "name" : "Bryn - Mawr", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Bryn - Mawr", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Bryn - Mawr"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Camden Industrial", 
+      "name" : "Camden Industrial", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Camden Industrial", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Camden Industrial"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Cedar - Isles - Dean", 
+      "name" : "Cedar - Isles - Dean", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Cedar - Isles - Dean", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Cedar - Isles - Dean"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Cedar Riverside", 
+      "name" : "Cedar Riverside", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Cedar Riverside", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Cedar Riverside"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Central", 
+      "name" : "Central", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Central", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Central"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Cleveland", 
+      "name" : "Cleveland", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Cleveland", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Cleveland"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Columbia Park", 
+      "name" : "Columbia Park", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Columbia Park", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Columbia Park"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Como", 
+      "name" : "Como", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Como", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Como"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Cooper", 
+      "name" : "Cooper", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Cooper", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Cooper"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Corcoran", 
+      "name" : "Corcoran", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Corcoran", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Corcoran"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Diamond Lake", 
+      "name" : "Diamond Lake", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Diamond Lake", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Diamond Lake"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Downtown East", 
+      "name" : "Downtown East", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Downtown East", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Downtown East"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Downtown West", 
+      "name" : "Downtown West", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Downtown West", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Downtown West"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "East Bde Maka Ska", 
+      "name" : "East Bde Maka Ska", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "East Bde Maka Ska", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "East Bde Maka Ska"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "East Harriet", 
+      "name" : "East Harriet", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "East Harriet", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "East Harriet"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "East Isles", 
+      "name" : "East Isles", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "East Isles", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "East Isles"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "East Phillips", 
+      "name" : "East Phillips", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "East Phillips", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "East Phillips"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Elliot Park", 
+      "name" : "Elliot Park", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Elliot Park", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Elliot Park"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Ericsson", 
+      "name" : "Ericsson", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Ericsson", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Ericsson"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Field", 
+      "name" : "Field", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Field", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Field"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Folwell", 
+      "name" : "Folwell", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Folwell", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Folwell"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Fulton", 
+      "name" : "Fulton", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Fulton", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Fulton"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Hale", 
+      "name" : "Hale", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Hale", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Hale"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Harrison", 
+      "name" : "Harrison", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Harrison", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Harrison"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Hawthorne", 
+      "name" : "Hawthorne", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Hawthorne", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Hawthorne"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Hiawatha", 
+      "name" : "Hiawatha", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Hiawatha", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Hiawatha"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Holland", 
+      "name" : "Holland", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Holland", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Holland"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Howe", 
+      "name" : "Howe", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Howe", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Howe"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Humboldt Industrial Area", 
+      "name" : "Humboldt Industrial Area", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Humboldt Industrial Area", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Humboldt Industrial Area"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Jordan", 
+      "name" : "Jordan", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Jordan", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Jordan"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Keewaydin", 
+      "name" : "Keewaydin", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Keewaydin", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Keewaydin"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Kenny", 
+      "name" : "Kenny", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Kenny", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Kenny"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Kenwood", 
+      "name" : "Kenwood", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Kenwood", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Kenwood"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "King Field", 
+      "name" : "King Field", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "King Field", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "King Field"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Lind - Bohanon", 
+      "name" : "Lind - Bohanon", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Lind - Bohanon", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Lind - Bohanon"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Linden Hills", 
+      "name" : "Linden Hills", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Linden Hills", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Linden Hills"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Logan Park", 
+      "name" : "Logan Park", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Logan Park", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Logan Park"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Longfellow", 
+      "name" : "Longfellow", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Longfellow", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Longfellow"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Loring Park", 
+      "name" : "Loring Park", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Loring Park", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Loring Park"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Lowry Hill", 
+      "name" : "Lowry Hill", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Lowry Hill", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Lowry Hill"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Lowry Hill East", 
+      "name" : "Lowry Hill East", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Lowry Hill East", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Lowry Hill East"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Lyndale", 
+      "name" : "Lyndale", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Lyndale", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Lyndale"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Lynnhurst", 
+      "name" : "Lynnhurst", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Lynnhurst", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Lynnhurst"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Marcy Holmes", 
+      "name" : "Marcy Holmes", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Marcy Holmes", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Marcy Holmes"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Marshall Terrace", 
+      "name" : "Marshall Terrace", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Marshall Terrace", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Marshall Terrace"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "McKinley", 
+      "name" : "McKinley", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "McKinley", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "McKinley"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Mid - City Industrial", 
+      "name" : "Mid - City Industrial", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Mid - City Industrial", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Mid - City Industrial"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Midtown Phillips", 
+      "name" : "Midtown Phillips", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Midtown Phillips", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Midtown Phillips"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Minnehaha", 
+      "name" : "Minnehaha", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Minnehaha", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Minnehaha"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Morris Park", 
+      "name" : "Morris Park", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Morris Park", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Morris Park"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Near - North", 
+      "name" : "Near - North", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Near - North", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Near - North"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Nicollet Island - East Bank", 
+      "name" : "Nicollet Island - East Bank", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Nicollet Island - East Bank", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Nicollet Island - East Bank"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "North Loop", 
+      "name" : "North Loop", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "North Loop", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "North Loop"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Northeast Park", 
+      "name" : "Northeast Park", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Northeast Park", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Northeast Park"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Northrop", 
+      "name" : "Northrop", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Northrop", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Northrop"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Page", 
+      "name" : "Page", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Page", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Page"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Phillips West", 
+      "name" : "Phillips West", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Phillips West", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Phillips West"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Powderhorn Park", 
+      "name" : "Powderhorn Park", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Powderhorn Park", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Powderhorn Park"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Prospect Park - East River Road", 
+      "name" : "Prospect Park - East River Road", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Prospect Park - East River Road", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Prospect Park - East River Road"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Regina", 
+      "name" : "Regina", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Regina", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Regina"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Seward", 
+      "name" : "Seward", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Seward", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Seward"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Sheridan", 
+      "name" : "Sheridan", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Sheridan", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Sheridan"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Shingle Creek", 
+      "name" : "Shingle Creek", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Shingle Creek", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Shingle Creek"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "South Uptown", 
+      "name" : "South Uptown", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "South Uptown", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "South Uptown"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "St. Anthony East", 
+      "name" : "St. Anthony East", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "St. Anthony East", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "St. Anthony East"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "St. Anthony West", 
+      "name" : "St. Anthony West", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "St. Anthony West", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "St. Anthony West"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Standish", 
+      "name" : "Standish", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Standish", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Standish"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Steven's Square - Loring Heights", 
+      "name" : "Steven's Square - Loring Heights", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Steven's Square - Loring Heights", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Steven's Square - Loring Heights"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Sumner - Glenwood", 
+      "name" : "Sumner - Glenwood", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Sumner - Glenwood", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Sumner - Glenwood"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Tangletown", 
+      "name" : "Tangletown", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Tangletown", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Tangletown"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "University of Minnesota", 
+      "name" : "University of Minnesota", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "University of Minnesota", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "University of Minnesota"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Ventura Village", 
+      "name" : "Ventura Village", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Ventura Village", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Ventura Village"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Victory", 
+      "name" : "Victory", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Victory", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Victory"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Waite Park", 
+      "name" : "Waite Park", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Waite Park", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Waite Park"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Webber - Camden", 
+      "name" : "Webber - Camden", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Webber - Camden", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Webber - Camden"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Wenonah", 
+      "name" : "Wenonah", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Wenonah", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Wenonah"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "West Maka Ska", 
+      "name" : "West Maka Ska", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "West Maka Ska", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "West Maka Ska"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Whittier", 
+      "name" : "Whittier", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Whittier", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Whittier"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Willard - Hay", 
+      "name" : "Willard - Hay", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Willard - Hay", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Willard - Hay"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Windom", 
+      "name" : "Windom", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Windom", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Windom"
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Windom Park", 
+      "name" : "Windom Park", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Windom Park", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "BDNUM" : null, 
+              "TEXT_NBR" : null, 
+              "INT_REFNO" : null, 
+              "PREFIX" : null, 
+              "UDI" : null, 
+              "SYMBOL_NAM" : null, 
+              "BDNAME" : "Windom Park"
+            }
+          }
+        }
+      ]
+    }
+  ], 
+  "templates" : [], 
+  "supportedQueryFormats" : "JSON, geoJSON, PBF", 
+  "supportedAppendFormats" : "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf", 
+  "supportedAppendSourceFilterFormats" : "sqlite,geoPackage,shapefile,filegdb,featureService", 
+  "supportedExportFormats" : "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel,parquet", 
+  "supportedConvertFileFormats" : "JSON,PBF,Parquet", 
+  "supportedConvertContentFormats" : "LayerEditCollection,FeatureCollection", 
+  "supportedSpatialRelationships" : [
+    "esriSpatialRelIntersects", 
+    "esriSpatialRelContains", 
+    "esriSpatialRelCrosses", 
+    "esriSpatialRelEnvelopeIntersects", 
+    "esriSpatialRelIndexIntersects", 
+    "esriSpatialRelOverlaps", 
+    "esriSpatialRelTouches", 
+    "esriSpatialRelWithin", 
+    "esriSpatialRelDisjoint", 
+    "esriSpatialRelRelation"
+  ], 
+  "guidFormat" : "", 
+  "supportsContingentValues" : true, 
+  "supportsEditingContingentValues" : true, 
+  "supportedContingentValuesFormats" : "JSON, PBF", 
+  "supportsFieldGroups" : true, 
+  "supportedSyncDataOptions" : 49412, 
+  "hasStaticData" : true, 
+  "maxRecordCount" : 1000, 
+  "standardMaxRecordCount" : 2000, 
+  "maxIdsCount" : 1000000, 
+  "standardMaxRecordCountNoGeometry" : 32000, 
+  "tileMaxRecordCount" : 4000, 
+  "maxRecordCountFactor" : 1, 
+  "capabilities" : "Query,Extract"
+}
