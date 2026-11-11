@@ -232,6 +232,12 @@ Ask Codex to clarify or revise anything you cannot justify. If you do not unders
 - Record your final plan in 3–5 bullets.
 - Explain one decision you made while reviewing it. A justified decision to retain a proposed approach counts; you do not need to change the plan just to make a change. However, don't just blindly accept what it suggests. Stop and discuss each decision with your partner!
 
+- Filter to Approved licenses, check repeated license numbers for consistency, and retain one record per distinct license number.
+- Standardize address case and whitespace while keeping suite numbers. Report missing neighborhoods as “Unknown,” separately from the rankings.
+- Count distinct licenses and distinct addresses by neighborhood. Rank both measures, including all neighborhoods tied at the fifth-place cutoff.
+- Compare the rankings in a table and paired bar chart, noting which neighborhoods enter, leave, or change rank.
+- Verify totals against the 53 distinct Approved licenses, manually check Northeast Park’s source records, and inspect ranking ties. Record the results and verification evidence in the writeup.
+
 ## 7.2 Implement and inspect
 
 Use the `/plan` toggle to leave Plan mode and confirm it is off **before** requesting implementation, or Press the "Implement this plan" option if it appears.
@@ -245,6 +251,36 @@ Use the `/plan` toggle to leave Plan mode and confirm it is off **before** reque
 
 - Briefly state your result and link to the supporting figure, table, or code.
 - Describe one implementation choice or issue you examined and what you decided about it.
+
+**Result:** North Loop ranks first under both measures, with **5 distinct Approved
+licenses at 5 distinct licensed addresses**. Whittier ranks second with **3 licenses
+at 3 addresses**. Hiawatha, Holland, Logan Park, Loring Park, and Lowry Hill East
+each have **2 licenses at 2 addresses**, tying for third under both measures.
+
+Beltrami, Columbia Park, Ericsson, Northeast Park, and Webber - Camden each have
+**2 licenses sharing 1 address**. They move from tied third by licenses to tied eighth
+by addresses and leave the address-based top-five list. No neighborhoods enter
+that were absent from the license-based list. Including every fifth-place tie
+produces **12 neighborhoods by licenses and 7 by addresses**; both cutoff counts are 2.
+
+![Approved licenses compared with distinct licensed addresses](analysis/figures/approved_neighborhood_comparison.png)
+
+Supporting outputs: [top-five comparison table](analysis/tables/approved_top_five_comparison.csv),
+[complete neighborhood rankings](analysis/tables/approved_neighborhood_rankings.csv),
+and [analysis code and executed outputs](analysis/codex_activity.ipynb), under
+“Research question: Approved licenses versus licensed addresses.”
+
+**Implemented choices:** The analysis counts distinct Approved license numbers,
+normalizes only address case and whitespace, and preserves suite numbers. No
+addresses changed under that normalization. Competition ranking gives ties the
+same rank; alphabetical order only arranges their display. Four distinct Approved
+licenses at four addresses have Unknown neighborhood and are reported separately,
+leaving **49 licenses at 44 addresses** in named neighborhoods. No coordinate filter
+is applied to this analysis. These are counts of recorded licenses and addresses,
+not businesses or access per resident.
+
+Personal inspection note: explain which implementation choice or issue you examined
+and whether you agree with the treatment above.
 
 ## 7.3 Verify one important result and reflect
 
@@ -269,6 +305,36 @@ Record:
 - **How I checked it**, including the independently established expectation or reference.
 - **What I observed**, with actual values, identified records, or another concrete comparison.
 - **What I changed or concluded**, including the result of rechecking any correction.
+
+**Verification evidence prepared for inspection:** This checks whether repeated
+records and multiple licenses at one address are counted correctly. The expected
+result comes from enumerating the original Northeast Park source records, rather
+than from the grouped summary being checked.
+
+| Source OBJECTID | License number | Business | Full address |
+|---|---|---|---|
+| 40 | LIC406960 | Padraigs Brewing | 945 BROADWAY ST NE #188 |
+| 41 | LIC406960 | Padraigs Brewing | 945 BROADWAY ST NE #188 |
+| 42 | LIC409863 | Padraigs Brewing | 945 BROADWAY ST NE #188 |
+
+All three source rows have status Approved and neighborhood Northeast Park. Rows
+40 and 41 repeat LIC406960, while row 42 identifies LIC409863. This enumeration
+establishes an expectation of **2 distinct licenses and 1 distinct full address**.
+The grouped analysis returns **2 licenses and 1 address**, matching both expected
+values. This check required no correction and detects the difference between
+counting source rows (3), licenses (2), and addresses (1).
+
+Evidence: [original source subset](analysis/tables/northeast_park_source_evidence.csv),
+[expected-versus-observed comparison](analysis/tables/northeast_park_verification.csv),
+and [complete saved source response](data/off_sale_liquor.json).
+The notebook also checks that the named-neighborhood license total (49) plus
+Unknown licenses (4) equals the 53 distinct Approved licenses, and that all cutoff
+ties are included.
+
+**Student inspection still needed:** Inspect the three source records and the
+comparison above, then record your own conclusion using the four Task 7.3 prompts.
+This verifies counting within the snapshot; it does not independently verify the
+real-world business location.
 
 
 # 8. What to hand in

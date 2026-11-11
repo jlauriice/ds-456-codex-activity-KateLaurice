@@ -1,0 +1,3 @@
+measure,expected_from_source_enumeration,actual_grouped_result,matches
+distinct_licenses,2,2,True
+distinct_addresses,1,1,True
